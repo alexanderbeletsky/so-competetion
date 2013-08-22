@@ -7,7 +7,7 @@ define(function (require) {
 		className: 'pure-u-1',
 
 		render: function () {
-			this.$el.append('<h1>Footer view</h1>');
+			//this.$el.append('<h1>Footer view</h1>');
 
 			return this;
 		}

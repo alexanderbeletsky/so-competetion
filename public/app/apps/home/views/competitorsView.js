@@ -3,7 +3,7 @@ define(function (require) {
 	var CompetitorView = require('./competitorView');
 
 	var CompetitorsView = Backbone.View.extend({
-		className: 'pure-u-1',
+		className: 'pure-g-r',
 
 		initialize: function () {
 			this.subviews = [];
