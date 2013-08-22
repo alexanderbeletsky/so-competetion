@@ -1,10 +1,20 @@
 define(function (require) {
 	var Backbone = require('Backbone');
+	var CompetitorView = require('./competitorView');
 
 	var CompetitorsView = Backbone.View.extend({
-		render: function () {
-			this.$el.append('<h1>CompetitorsView view</h1>');
+		className: 'pure-u-1',
 
+		initialize: function () {
+			this.subviews = [];
+		},
+
+		render: function () {
+			this.collection.each(function (competitor) {
+				var view = new CompetitorView({model: competitor});
+				this.subviews.push(view);
+				this.$el.append(view.render().el);
+			}, this);
 			return this;
 		}
 	});

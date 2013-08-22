@@ -7,7 +7,7 @@ define(function (require) {
 	var FooterView = require('./footerView');
 
 	var MainView = Backbone.View.extend({
-		initialize: function () {
+		initialize: function (options) {
 			this.subviews = [];
 		},
 
@@ -16,7 +16,7 @@ define(function (require) {
 			this.subviews.push(header);
 			this.$el.append(header.render().el);
 
-			var competitors = new CompetitorsView();
+			var competitors = new CompetitorsView({collection: this.collection});
 			this.subviews.push(competitors);
 			this.$el.append(competitors.render().el);
 
