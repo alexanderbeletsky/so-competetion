@@ -1,0 +1,129 @@
+body {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 18px;
+}
+
+a {
+	color: #007cdb;
+}
+
+ul, ol {
+	margin: 0 0 1.5em;
+}
+
+ul li, ol li {
+	margin: 0 0 0.5em;
+}
+
+ul {
+	list-style: square;
+}
+
+.inner {
+	width: 1100px;
+	margin: 0 auto;
+}
+
+.light {
+	font-weight: 300;
+	color: #777;
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+	body {
+		font-size: 14px;
+		font-weight: 400;
+	}
+
+	article .title {
+		font-size: 2em;
+	}
+
+	.meta {
+		position: static;
+		width: auto;
+	}
+
+	.inner {
+		width: auto;
+		margin: 0 20px;
+	}
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+	.inner {
+		width: auto;
+		margin: 0 15px;
+	}
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+	.inner {
+		width: auto;
+		margin: 0 15px;
+	}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+	.inner {
+		width: auto;
+		margin: 0 15px;
+	}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+	.inner {
+		width: auto;
+		margin: 0 15px;
+	}
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+	.inner {
+		margin: 0 15px;
+	}
+}
+
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+	.inner {
+		width: 1100px;
+		margin: 0 auto;
+	}
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+	.inner {
+		width: 1400px;
+		margin: 0 auto;
+	}
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
