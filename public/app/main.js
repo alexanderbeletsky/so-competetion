@@ -36,13 +36,6 @@ require.config({
 	}
 });
 
-require(['core/router', 'core/client', 'Backbone'], function (Router, client, Backbone) {
-	var app = {
-		root: '/'
-	};
-
-	window.Router = new Router();
-	client.setup(window, app);
-
-	Backbone.history.start({ pushState: true });
+require(['core/viewManager', 'apps/home/app'], function (viewManager, app) {
+	app.run(viewManager);
 });
