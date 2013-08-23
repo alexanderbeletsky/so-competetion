@@ -9,3 +9,7 @@ Stackoverflow competetion between Alexander and Eugene Beletsky.
 * Winner is the one who get higher reputation till 31 Dec 23:59 2012
 
 ** Let the competition begin! **
+
+#Licence
+
+MIT

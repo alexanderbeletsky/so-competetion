@@ -6,7 +6,11 @@
   "dependencies": {
     "connect": "~2.8.5"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "grunt-cli": "~0.1.8",
+    "grunt-contrib-jshint": "~0.3.0",
+    "grunt-contrib-requirejs": "~0.4.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
