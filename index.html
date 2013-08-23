@@ -15,25 +15,22 @@
         <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.2.1/pure-min.css">
         <link rel="stylesheet" href="public/css/style.css">
     </head>
-    <body>
+    <body class="inner">
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
+        <header class="pure-g-r">
+            <p class="pure-u-1">
+                StackOverflow contest between <a href="http://stackoverflow.com/users/397991/siik">siik</a> and <a href="http://stackoverflow.com/users/386751/alexanderb">alexanderb</a>.
+            </p>
+        </header>
 
-        <div id="app" class="inner pure-g-r">
+        <div id="app" class="pure-g-r">
         </div>
 
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="public/components/jquery.min.js"><\/script>')</script>
 
         <script type="text/javascript" src="public/components/requirejs/require.js" data-main="public/app/main.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src='http://www.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
     </body>
 </html>

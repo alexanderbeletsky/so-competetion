@@ -2,10 +2,15 @@ define(function (require) {
 	var Backbone = require('Backbone');
 
 	var CounterView = Backbone.View.extend({
-		className: 'pure-u-1',
+		className: 'counter pure-g-r',
+
+		template: '\
+			<div class="pure-u-1">\
+			</div>\
+		',
 
 		render: function () {
-			//this.$el.append('<h1>CounterView view</h1>');
+			this.$el.append(this.template);
 
 			return this;
 		}
