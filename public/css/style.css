@@ -31,10 +31,10 @@ ul {
 	color: #777;
 }
 
-/*.competitor {
-	text-align: center;
+.main {
+	padding: 15px 0;
 }
-*/
+
 header {
 	padding: 50px 0;
 	font-size: 1.2em;
@@ -119,6 +119,17 @@ header {
 
 .so {
 	color: #f39c12;
+}
+
+footer {
+	border-top: 1px solid #ecf0f1;
+	padding: 8px 0;
+}
+
+footer p {
+	opacity: 0.7;
+	font-size: 0.7em;
+	font-weight: lighter;
 }
 
 /* Smartphones (portrait and landscape) ----------- */
