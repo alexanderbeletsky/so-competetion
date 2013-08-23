@@ -1,0 +1,16 @@
+{
+  "name": "so-competetion",
+  "version": "0.0.0",
+  "description": "StackOverflow competetion",
+  "main": "server.js",
+  "dependencies": {
+    "connect": "~2.8.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "alexander.beletsky@gmail.com",
+  "license": "MIT"
+}
