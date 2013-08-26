@@ -6,7 +6,7 @@ Stackoverflow competetion between Alexander and Eugene Beletsky.
 
 * Ask or answer any SO question
 * No ask to vote by frieds - fair play
-* Winner is the one who get higher reputation till 31 Dec 23:59 2012
+* Winner is the one who get higher reputation till 31 Dec 23:59 2013
 
 **Let the competition begin!**
 
